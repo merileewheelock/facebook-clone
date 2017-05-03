@@ -1,0 +1,223 @@
+#facebook-wrapper{
+	/* Main page styles here */
+	font-family: apple-system, system-ui, ".SFNSText-Regular", sans-serif;
+	font-size: 12px;
+	color: #1d2129;
+}
+
+#header{
+	background-color: #3B5998; /* Facebook blue */
+	height: 43px;
+	padding-top: 10px;
+}
+
+#header-inner{
+	max-width: 900px;
+	margin: auto;
+	overflow: hidden; /* This will tell the header parent that this is a float */
+}
+
+/* Floated elements DO NOT pass their height up to non-floated parents. */
+
+#fb-logo,#fb-search{
+	float: left;
+	margin-left: 10px;
+}
+
+#fb-logo{
+	background-image: url(https://www.facebook.com/rsrc.php/v3/yu/r/UnZEsNz1oHl.png);
+	background-position: 0 -17px;
+	height: 24px;
+	width: 24px;
+}
+
+#fb-search input{
+	width: 350px;
+	height: 20px;
+}
+
+#right-header{
+	float: right;
+}
+
+.fb-icons{
+	float: left;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	height: 24px;
+	min-width: 24px;
+	margin-left: 10px;
+	line-height: 30px;
+}
+
+.fb-icons.friends, .fb-icons.messages, .fb-icons.notifications{
+	background-image: url(https://www.facebook.com/rsrc.php/v3/yU/r/ujRgtpgUFf7.png);
+}
+
+.fb-icons.friends{
+	background-position: 0 -13px;
+}
+
+.fb-icons.messages{
+	background-position: 0 -263px;
+}
+
+.fb-icons.notifications{
+	background-position: 0 -63px;
+}
+
+#home-updates .new-feeds{
+	background-color: rgba(0, 0, 0, .25);
+	border-radius: 2px;
+	font-size: 10px;
+}
+
+/* LEFT SIDEBAR */
+
+#content{
+	overflow: hidden; /* Must have overflow: hidden so that the floated children pass their height up; */
+	margin-top: 20px;
+}
+
+#left{
+	width: 20%;
+	float: left;
+	margin-left: 15px;
+}
+
+#middle{
+	width: 50%;
+	float: left;
+	border-left: 1px #CACACA solid;
+	border-right: 1px #CACACA solid;
+	padding-left: 10px;
+}
+
+#right{
+	width: 25%;
+	float: right;
+	margin-right: 15px;
+}
+
+.left-profile .left-profile-name{
+	vertical-align: top;
+}
+
+.favorites-header{
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 30px;
+	font-weight: bold;
+}
+
+.favorites-item{
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+
+/* SPRITES ARE TERRIBLE */
+/* .news{
+	background-image: url(https://www.facebook.com/rsrc.php/v3/yB/r/MwZ0pJqSJ5p.png);
+	background-position: 0 -894px;
+	height: 20px;
+	width: 20px;
+}
+ */
+
+/* CENTER SECTION */
+
+.status-header .status-item{
+	float: left;
+	font-weight: bold;
+}
+
+.status-item{
+	padding-bottom: 10px;
+	padding-right: 10px;
+	/* background-image: url(https://www.facebook.com/rsrc.php/v3/yc/r/alWCIaglKXc.png); */
+}
+
+/* .status-item.status-icon{
+	background-position: -68px -275px;
+	width: 16px;
+	height: 16px;
+}
+
+.status-item.photo-icon{
+	background-position: 0 -2028px;
+	width: 16px;
+	height: 16px;
+} */
+
+.status-wrapper input{
+	width: 100%;
+}
+
+.status-header{
+	margin: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px #CACACA solid;
+}
+
+.friend-name{
+	vertical-align: top;
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+.post-update img{
+	padding: 5px 20px;
+}
+.content-update1, .content-update2{
+	padding-top: 10px;
+	border-bottom: 1px #CACACA solid;
+	margin-right: 20px
+}
+
+
+/* RIGHT SIDEBAR */
+
+.right-notifications-list, .sponsor-notifications{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.right-notifications{
+	border-bottom: 1px #CACACA solid;
+}
+
+.sponsored{
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-bottom: 1px #CACACA solid;
+}
+
+.sponsor-notifications{
+	display: inline;
+	padding-right: 20px;
+}
+
+.sponsor-notifications.sponsor{
+	font-weight: bold;
+}
+
+.right-ads{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 80px;
+	width: 100%;
+	border-bottom: 1px #CACACA solid;
+}
+
+.right-ad-header{
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+.right-ad-image{
+	float: left;
+	margin-right: 5px;
+	padding-bottom: 10px;
+}
