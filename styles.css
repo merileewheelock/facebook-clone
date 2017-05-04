@@ -34,6 +34,7 @@
 #fb-search input{
 	width: 350px;
 	height: 20px;
+	font-size: 14px;
 }
 
 #right-header{
@@ -57,6 +58,7 @@
 
 .fb-icons.friends{
 	background-position: 0 -13px;
+	margin-left: 30px;
 }
 
 .fb-icons.messages{
@@ -129,29 +131,32 @@
 
 .status-header .status-item{
 	float: left;
+}
+
+.status-text, .photo-text{
+	padding-bottom: 10px;
+	padding-right: 10px;
 	font-weight: bold;
 }
 
-.status-item{
-	padding-bottom: 10px;
-	padding-right: 10px;
-	/* background-image: url(https://www.facebook.com/rsrc.php/v3/yc/r/alWCIaglKXc.png); */
-}
-
-/* .status-item.status-icon{
+.status-item.status-icon{
+	background-image: url(https://www.facebook.com/rsrc.php/v3/yc/r/alWCIaglKXc.png);
 	background-position: -68px -275px;
 	width: 16px;
 	height: 16px;
 }
 
+
 .status-item.photo-icon{
+	background-image: url(https://www.facebook.com/rsrc.php/v3/yB/r/MwZ0pJqSJ5p.png);
 	background-position: 0 -2028px;
 	width: 16px;
 	height: 16px;
-} */
+}
 
 .status-wrapper input{
 	width: 100%;
+	font-size: 14px;
 }
 
 .status-header{
@@ -175,16 +180,49 @@
 	margin-right: 20px
 }
 
+.post-actions{
+	margin: 5px 20px;
+}
+
+.actions{
+	font-family: "San Francisco", -apple-system, system-ui, ".SFNSText-Regular", sans-serif;
+	font-size: 12px;
+	color: #4b4f56;
+}
+
 
 /* RIGHT SIDEBAR */
 
-.right-notifications-list, .sponsor-notifications{
+.sponsor-notifications{
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
 
 .right-notifications{
 	border-bottom: 1px #CACACA solid;
+}
+
+.right-notifications-line{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.right-notifications-list{
+	display: inline-block;
+}
+
+.right-notifications-list.note-icon{
+	background-image: url(https://www.facebook.com/rsrc.php/v3/yb/r/lWvUGJiqxe2.png);
+	background-position: -17px -222px;
+	height: 16px;
+	width: 16px;
+}
+
+.events-icon{
+	background-image: url(https://www.facebook.com/rsrc.php/v3/yb/r/lWvUGJiqxe2.png);
+	background-position: -17px -205px;
+	height: 16px;
+	width: 16px;
 }
 
 .sponsored{
